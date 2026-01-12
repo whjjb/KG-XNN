@@ -1,6 +1,5 @@
-![KG-XNN logo](icon/kgxnn_banner.png)
+![KG-XNN logo](assets/kgxnn_banner.png)
 
-# KG-XNN: Knowledge-Graph-Guided Explainable Neural Network for Image Classification
 
 KG-XNN is a knowledge-driven, explainable image classification prototype for CIFAR-100. It uses ResNet-50 as the visual backbone,
 and fuses visual features with semantic knowledge via a KG encoder (GAT) and cross-attention, with optional attribute supervision and explanations.
@@ -195,8 +194,8 @@ python train_kgxnn.py \
 
 Grad-CAM 输出的是一张类别相关的显著性热力图（class-discriminative heatmap），用来表达：在当前预测类别下，图像中哪些区域对模型决策贡献最大。热力图中更“热”的区域表示对目标类别得分的正向贡献更大；更“冷”的区域贡献较小或几乎无贡献。
 
-![Grad-CAM Example](outputs/bus_1_overlay.jpg) 
-![Grad-CAM Example](outputs/bus_3_overlay.jpg)
+![Grad-CAM Example](assets/example_1.jpg) 
+![Grad-CAM Example](assets/example_2.jpg)
 
 
 **2) 语义解释示例**
