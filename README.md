@@ -196,6 +196,7 @@ Grad-CAM 输出的是一张类别相关的显著性热力图（class-discriminat
 
 ![Grad-CAM Example](assets/example_1.jpg) 
 ![Grad-CAM Example](assets/example_2.jpg)
+![Grad-CAM Example](assets/example_3.jpg)
 
 
 **2) 语义解释示例**
